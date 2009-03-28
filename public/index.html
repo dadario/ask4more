@@ -30,7 +30,7 @@
       
       #page {
         background-color: #f0f0f0;
-        width: 750px;
+        width: 800px;
         margin: 0;
         margin-left: auto;
         margin-right: auto;
@@ -42,7 +42,7 @@
         border: 3px solid #aaa;
         border-top: none;
         padding: 25px;
-        width: 500px;
+        width: 550px;
       }
       
       #sidebar {
@@ -237,34 +237,32 @@
 
       <div id="content">
         <div id="header">
-          <h1>Welcome aboard</h1>
+          <h1>Ask4More - Welcome aboard</h1>
           <h2>You&rsquo;re riding Ruby on Rails!</h2>
         </div>
 
         <div id="about">
-          <h3><a href="rails/info/properties" onclick="about(); return false">About your application&rsquo;s environment</a></h3>
+          <h3><a href="rails/info/properties" onclick="about(); return false">About this application&rsquo;s environment</a></h3>
           <div id="about-content" style="display: none"></div>
         </div>
         
         <div id="getting-started">
-          <h1>Getting started</h1>
-          <h2>Here&rsquo;s how to get rolling:</h2>
-          
-          <ol>          
-            <li>
-              <h2>Use <tt>script/generate</tt> to create your models and controllers</h2>
-              <p>To see all available options, run it without parameters.</p>
-            </li>
-            
-            <li>
-              <h2>Set up a default route and remove or rename this file</h2>
-              <p>Routes are set up in config/routes.rb.</p>
-            </li>
-
-            <li>
-              <h2>Create your database</h2>
-              <p>Run <tt>rake db:migrate</tt> to create your database. If you're not using SQLite (the default), edit <tt>config/database.yml</tt> with your username and password.</p>
-            </li>
+          <h1>What's about?</h1>
+          <h2>
+		   <div>This is a simple site for make evolutionary programming using Rails.</div>
+	       <div>Initially, there is a simple list, but you can add requests to see implemented in this site.</div>
+          </h2>
+          <h1>How contribute?</h1>
+          <h2>
+		   <div>There is a project in Rails in a public git repository in site of the <a href="http://github.com">github</a> (<a href="http://github.com/dadario/ask4more">http://github.com/dadario/ask4more</a>).</div>
+	       <div>Make your clone, implement one of requests to evolve and send the patch to be aggregate in this site.</div>
+          </h2>
+			<h2>
+				These are the initial requests:
+			</h2>
+          <ol>
+            <li>Create a dynamic list of requests</li>
+            <li>Create a layout for this site</li>
           </ol>
         </div>
       </div>
